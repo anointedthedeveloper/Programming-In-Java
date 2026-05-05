@@ -1,7 +1,6 @@
 /*
  * The program prints the welcome message using the println() method.
  */
-package hellomessageapp;
  /**
  *
  * @author vincent
