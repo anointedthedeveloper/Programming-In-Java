@@ -3,7 +3,7 @@ public class TestNumericOperation {
 
     public static void main(String[] args) {
 // Declares and initializes the variable
-        int choice = 3;
+        int choice = 2;
 // switch expression value is matched with each case
         switch (choice) {
             case 1:
