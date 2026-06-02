@@ -14,17 +14,18 @@ public class Toyota {
         height = 55.68;
    }
 
-   Toyota(double width, double height, double length, String newcolor) {
+   Toyota(double newwidth, double newheight, double newlength, String newcolor) {
         color = newcolor;
    }
 
    public static void main (String[] args) {
         //create new toyota Cars
-        Toyota car1 = new Toyota(45, 145, 42, "Blue");
-
+        Toyota car1 = new Toyota();
+        Toyota car2 = new Toyota(45, 145, 42, "Blue");
+        car2.model = "Corolla";
         //print Car Properties
-        System.out.println("Car Model: " + car1.model);
-        System.out.println("Car Color: " + car1.color);
+        System.out.println("Car Model1: " + car1.model);
+        System.out.println("Car Model2: " + car2.model);
     
     }
 
