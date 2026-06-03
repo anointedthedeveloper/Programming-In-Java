@@ -16,13 +16,19 @@ public class Toyota {
 
    Toyota(double newwidth, double newheight, double newlength, String newcolor) {
         color = newcolor;
+        //
+	   if(newwidth < 50) {
+        model = "Corrolla mid";
+   }
+
    }
 
    public static void main (String[] args) {
         //create new toyota Cars
         Toyota car1 = new Toyota();
-        Toyota car2 = new Toyota(45, 145, 42, "Blue");
+    Toyota car2 = new Toyota(45, 145, 42, "Blue");
         car2.model = "Corolla";
+        Toyota car3 = new Toyota(45, 145, 42, "Red");
         //print Car Properties
         System.out.println("Car Model1: " + car1.model);
         System.out.println("Car Model2: " + car2.model);
