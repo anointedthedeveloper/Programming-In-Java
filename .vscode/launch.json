@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Numbers",
+            "request": "launch",
+            "mainClass": "Numbers",
+            "projectName": "Programming-In-Java_e16aef24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "Programming-In-Java",
+            "cwd": "${fileDirname}",
+            "classPaths": [
+                "${fileDirname}"
+            ],
+            "shortenCommandLine": "argfile"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java App",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "Programming-In-Java",
+            "cwd": "${fileDirname}",
+            "classPaths": [
+                "${fileDirname}"
+            ],
+            "shortenCommandLine": "argfile"
+        }
+    ]
+}
