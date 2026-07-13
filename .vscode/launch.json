@@ -3,34 +3,30 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Numbers",
+            "name": "Automobile",
             "request": "launch",
-            "mainClass": "Numbers",
+            "mainClass": "automobiles1.Automobile",
             "projectName": "Programming-In-Java_e16aef24"
         },
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "OmnivorousAnimal",
             "request": "launch",
-            "mainClass": "${file}",
-            "projectName": "Programming-In-Java",
-            "cwd": "${fileDirname}",
-            "classPaths": [
-                "${fileDirname}"
-            ],
-            "shortenCommandLine": "argfile"
+            "mainClass": "animals.OmnivorousAnimal",
+            "projectName": "Programming-In-Java_e16aef24"
         },
         {
             "type": "java",
-            "name": "Launch Java App",
+            "name": "AnimalStatus",
             "request": "launch",
-            "mainClass": "${file}",
-            "projectName": "Programming-In-Java",
-            "cwd": "${fileDirname}",
-            "classPaths": [
-                "${fileDirname}"
-            ],
-            "shortenCommandLine": "argfile"
+            "mainClass": "animals.AnimalStatus",
+            "projectName": "Programming-In-Java_e16aef24"
+        },
+        {
+            "type": "java",
+            "name": "Run Current Package File",
+            "request": "launch",
+            "mainClass": "${file}"
         }
     ]
 }
