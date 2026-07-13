@@ -2,13 +2,13 @@ package animals;
 
 public class HerbivorousAnimal {
     // Instance variables
-    String HerbiDiet = "Plants and seeds";
-    String animalTeethType = "Lophodont";
+    public String herbiDiet = "Plants and seeds";
+    protected String animalTeethType = "Lophodont";
     String animalStomach = "Polygastric";
     
     // Method to check animal type
     public void checkHerbivorousAnimal(String animal, String animalDiet) {
-        if (animalDiet.equals(HerbiDiet)) {
+        if (animalDiet.equals(herbiDiet)) {
             System.out.println(animal + " Is a Herbivorous Animal");
         } else {
             System.out.println(animal + " may not really be an Herbivore");
