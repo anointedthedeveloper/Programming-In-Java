@@ -19,4 +19,9 @@ class Keyboard {
             //move mouse and track direction 
     }
 
+    //run class 
+    public static void nain (String[] args){
+        Keyboard keyboard = new Keyboard();
+        board.input("key");
+    }
 }
