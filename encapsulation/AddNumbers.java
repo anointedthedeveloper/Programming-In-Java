@@ -5,7 +5,7 @@ public class AddNumbers {
     int y = 20;
 
     int add() {
-        return (x-y); // 30
+        return (x+y); // 30
     }
 
     int addNumbers(int num1, int num2) {
