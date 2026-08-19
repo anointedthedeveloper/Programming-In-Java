@@ -37,6 +37,14 @@ public class TwoDimension {
         System.out.println("Roll no.3:" + marks[2][0]+ "," + marks[2][1]);
         System.out.println("Roll no.4:" + marks[3][0]+ "," + marks[3][1]);
     }
+    public void loopMarks() {
+        System.out.println("Marks are:");
+        // Display the marks using for loop
+        for(int count = 0; count < marks.length; count++) {
+        System.out.println(marks[count]);
+    }
+    }
+
     /**
      * @param args the command line arguments
      */
@@ -47,5 +55,7 @@ public class TwoDimension {
         twoDimenObj.storeMarks();
         //Invoke the displayMarks() method
         twoDimenObj.displayMarks();
+        twoDimenObj.loopMarks();
+
     }
 }
