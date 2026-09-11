@@ -13,7 +13,9 @@ public class ClassA {
 
     void showCounts () {
         System.out.println("Count is : " + count);
-        System.out.println("Total Count is : " + totalCount);
+        System.out.println(
+            
+            "Total Count is : " + totalCount);
     }
     
 }
