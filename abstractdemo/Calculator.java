@@ -8,7 +8,7 @@ public class Calculator {
         String shape = "circle";
         float value = 60;
 
-        switch (shape) {
+        switch (shape) 
 
             case "circle":
                 objShape = new Circle();
